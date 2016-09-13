@@ -1,0 +1,65 @@
+Ranking Economical Cars Using mtcars Data  
+===
+author: Mohamed A. Nour
+date: `r date()`
+
+Presentation Objective
+========================================================
+
+
+- To develop a shiny application as per the project requirements
+
+- To demonstrate the student ability to develop conceptual appliction using the knowledge acquired in the course
+
+- The application can be accessed [here](https://mahoshiny.shinyapps.io/TopCars/)
+
+- The data is from the 1974 Motor Trend US magazine and comprises fuel 
+consumption and ten characteristics of automobile design and 
+performance for 32 cars (1973-74 models).
+
+Design
+========================================================
+
+
+- Use the mtcars dataset built in basic R to develop the application 
+
+- Parametrs: 
+-
+             mpg          (data variable)
+             hp           (data variable)
+             displacement (data variable)
+             distance     (input variable)
+             cyl          (data variable)
+             Transmission (data variable)
+             cost         (input variable),
+
+- User Action :Select the desired variables of the car, distance, and cost to get the best car choice   
+
+
+
+
+
+
+Application Ouput
+========================================================
+
+- Responsive barplot based on the user selections
+
+-  Asample output is displayed to demonstrate the output plot. ![here](myplot.png)
+
+
+
+
+
+Application Usage and Code
+========================================================
+
+- Choose the cheapest rental car for a trip based on gas
+
+- Select the most econimcal car to own based on gas cost 
+
+- The gas expenditure is the only factor used to rank the cars.
+
+- The Code is available on Github [here](https://github.com/mabouelnour/Developing-Data-Products)
+
+
